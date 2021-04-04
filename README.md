@@ -10,7 +10,7 @@
 
 
 
-### **알파벳인지 아닌지 검사 isalpha()**
+#### 📒 **알파벳인지 아닌지 검사 isalpha()**
 
 ```python
 x = 'a'
@@ -24,7 +24,7 @@ x.isalpha()   # x가 알파벳이면 true, 아니면 false 리턴
 
 
 
-### **문자열 합치기  join() 함수 **
+#### 📒 **문자열 합치기  join() 함수**
 
 ```python
 list = ['a', 'b', 'c']
@@ -54,7 +54,7 @@ print(result2)        # BlockDMask.python.join.example
 
 
 
-### **리스트 초기화**
+#### 📒 **리스트 초기화**
 
 ```python
 # 2차원 리스트를 0으로 초기하는 방법
@@ -76,7 +76,7 @@ for i in range(n) :
 
 
 
-### **리스트 값 추가 **
+#### 📒 **리스트 값 추가**
 
 ```python
 array = []
@@ -92,7 +92,7 @@ array.append(x)
 
 
 
-### **리스트 얕은복사 깊은복사**
+#### 📒 **리스트 얕은복사 깊은복사**
 
 ```python
 import copy
@@ -116,7 +116,7 @@ print(c) # [1,2,3] 출력
 
 
 
-### **다중 값으로 정렬하기**
+#### 📒 **다중 값으로 정렬하기**
 
 ```python
 result = sorted(result, key = lambda x : (x[0], x[1], x[2]))
@@ -132,7 +132,7 @@ result = sorted(result, key = lambda x : (x[0], x[1], x[2]))
 
 
 
-### **스택  생성 , 삭제 **
+#### 📒 **스택  생성 , 삭제**
 
 ```python
 stack = []
@@ -159,7 +159,7 @@ print(stack[::-1])  # [1,3,2,5] 출력
 
 
 
-### **큐 생성 , 삭제 **
+#### 📒 **큐 생성 , 삭제**
 
 ```python
 from collections import deque
@@ -188,7 +188,7 @@ print(queue)     # deque([4,1,7,3]) 출력
 
 
 
-### **반올림 round() 함수의 필요성**
+#### 📒 **반올림 round() 함수의 필요성**
 
 ```python
 a = 0.3 + 0.6
