@@ -2,11 +2,13 @@
 
 </br>
 
-코딩테스트 하루전 날 꼭 읽어보아야 할 파이썬 문법 모음
+코딩테스트 하루전 날 읽어보아야 할 파이썬 문법 모음
 
 </br>
 
 </br>
+
+
 
 ### **알파벳인지 아닌지 검사 isalpha()**
 
@@ -19,6 +21,8 @@ x.isalpha()   # x가 알파벳이면 true, 아니면 false 리턴
 </br>
 
 </br>
+
+
 
 ### **문자열 합치기  join() 함수 **
 
@@ -48,6 +52,8 @@ print(result2)        # BlockDMask.python.join.example
 
 </br>
 
+
+
 ### **리스트 초기화**
 
 ```python
@@ -68,6 +74,8 @@ for i in range(n) :
 
 </br>
 
+
+
 ### **리스트 값 추가 **
 
 ```python
@@ -81,6 +89,8 @@ array.append(x)
 </br>
 
 </br>
+
+
 
 ### **리스트 얕은복사 깊은복사**
 
@@ -104,6 +114,8 @@ print(c) # [1,2,3] 출력
 
 </br>
 
+
+
 ### **다중 값으로 정렬하기**
 
 ```python
@@ -117,6 +129,8 @@ result = sorted(result, key = lambda x : (x[0], x[1], x[2]))
 </br>
 
 </br>
+
+
 
 ### **스택  생성 , 삭제 **
 
@@ -171,6 +185,8 @@ print(queue)     # deque([4,1,7,3]) 출력
 </br>
 
 </br>
+
+
 
 ### **반올림 round() 함수의 필요성**
 
